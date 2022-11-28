@@ -1,0 +1,7 @@
+! name: Reddit Only
+! description: Show only Reddit results
+! public: false
+! author: Jon G
+
+$discard
+$boost,site=reddit.com
